@@ -53,7 +53,6 @@ if __name__ == '__main__':
     # Set the path to your input image
     image_path = r"../images/test1.jpg"
 
-
     # Load the model
     model = load_model()
 
