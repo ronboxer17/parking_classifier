@@ -3,7 +3,9 @@ import torch.nn as nn
 from torchvision import models, transforms
 from PIL import Image
 import matplotlib.pyplot as plt
-from config import MODEL_DIR
+
+TRAINING_DATA_DIR = r"..\data"
+MODEL_DIR = r'..\model\resnet_finetuned.pth'
 
 def load_model(model_path=MODEL_DIR, num_classes=2):
     # Load the fine-tuned model

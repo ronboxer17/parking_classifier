@@ -2,7 +2,9 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from torchvision import models, transforms, datasets
-from config import TRAINING_DATA_DIR, MODEL_DIR
+
+TRAINING_DATA_DIR = r"..\data"
+MODEL_DIR = r'..\model\resnet_finetuned.pth'
 
 
 class ParkingClassifier:
