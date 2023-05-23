@@ -1,5 +1,5 @@
 # Parking Slot Occupancy Detection
-Fine-tuned ResNet50 model for binary classification on zoomed in parking slot. 
+Fine-tuned ResNet50 model using PyTorch for binary classification on zoomed in parking slot. 
 ![alt text](images/parking_full_size.jpg)
 <br>
 ![alt text](images/test1.jpg)
